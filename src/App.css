@@ -1,0 +1,66 @@
+.top-padding {
+  padding-top: 2rem;
+}
+
+.btn {
+  background-color: rgb(255, 50, 40);
+}
+
+.lyrics-padding {
+  padding: 0 10px 10px 20px;
+}
+
+h5.card-header {
+  text-align: center;
+}
+
+.card-margin {
+  margin-top: 2rem;
+}
+.card-padding {
+  padding-top: 2rem;
+}
+
+@media (max-width: 1040px) {
+  .view-lyrics-btn {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .favorites-btn {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.song {
+  font-size: 1.1rem;
+}
+@media (max-width: 1130px) {
+  .song {
+    margin-bottom: 0;
+    height: 3.3rem;
+  }
+}
+
+.artist {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 790px) {
+  .artist {
+    margin-bottom: 1rem;
+    height: 3.2rem;
+  }
+}
+
+/* Styling load more button */
+
+.load-more-btn {
+  width: 45%;
+  background-color: red;
+  margin: auto;
+  margin-bottom: 2rem;
+}
